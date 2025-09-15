@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOto/J6p3jP8XtW0Apmq5P5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Minakshi-tec539/Diagram/blob/main/Integers\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "17RGjmXL1USJ",
+        "outputId": "94aa671f-354d-4de5-d8af-f0a0ee34c4b5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Student_Id: {112, 114, 115, 116, 118}\n"
+          ]
+        }
+      ],
+      "source": [
+        "#set: An ordered collection,No duplicate elements and mutable in nature(We can add or remove element)\n",
+        "#create a set of integers\n",
+        "student_id={112,114,116,118,115}\n",
+        "print(\"Student_Id:\",student_id)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#create a set of string type\n",
+        "vowel_letter= {'a','e','i','o','u'}\n",
+        "print(\"Vowel_letter:\",vowel_letter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VZPLCkCo2RZh",
+        "outputId": "8071d21f-b8fa-4551-f990-9f6e6a8615e9"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Vowel_letter: {'o', 'a', 'e', 'u', 'i'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "3FuHBsYx2z7h"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
